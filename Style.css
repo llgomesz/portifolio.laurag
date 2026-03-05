@@ -6,4 +6,46 @@
 body {
     height: 100vh;
     background: rgb(237, 121, 169);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    margin: 0;
+    color: white;
+}
+.cabecalho {
+    padding: 2% 0% 0% 15%;
+}
+
+.cabecalho-menu {
+    display: flex;
+    gap: 80px;
+}
+
+.cabecalho-menu-links {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 24xp;
+    font-weight: 600;
+    color: white;
+    text-decoration: none;
+}
+
+.conteudo {
+    height: auto;
+    flex-direction: column;
+    margin: 10%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 15%;
+}
+
+.apresentacao-conteudo {
+    width: 615px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: auto;
+    gap: 40px;
+    order:2;
 }
