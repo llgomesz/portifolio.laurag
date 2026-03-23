@@ -5,12 +5,12 @@
 
 body {
     height: 100vh;
-    background: rgb(237, 121, 169);
+    background: #c87d87;
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
     margin: 0;
-    color: white;
+    color: #fbead6;
 }
 .cabecalho {
     padding: 2% 0% 0% 15%;
@@ -25,7 +25,7 @@ body {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 24xp;
     font-weight: 600;
-    color: white;
+    color: #fbead6;
     text-decoration: none;
 }
 
@@ -63,8 +63,55 @@ body {
         text-align: justify;
     }
 
+    /* INÍCIO BOTÃO1 */
     .botao1{
-        background-color: #000;
+        background-color: #fbead6;
+        color: #e5bca9;
+        width: 500px;
+        height: 80px;
+        text-align: center;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border: 2px solid #e5bca9;
+        border-radius: 50px;
+        font-size: 36px;
+        padding: 15px 0;
+        text-decoration: none;
+        font-family: Arial, Helvetica, sans-serif;
+        letter-spacing: 2px;
+        text-transform: uppercase;
+        position: relative;
+        overflow: hidden;
+    }
+
+    .botao1::before {
+        content: "";
+        position: absolute;
+        top: 0;
+        left: -100%;
+        width: 100%;
+        height: 100%;
+        background: linear-gradient(45deg, transparent, #e5bca9);
+        transition: 0.5s;
+
+    }
+
+    .botao1:hover::before {
+        left: 100%;
+    }
+
+    .botao1 i {
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%, -50%);
+        font-size: 60px;
+    }
+
+    /* INÍCIO BOTÃO2 */
+    .botao2{
+        background-color: #fbead6;
         color: rgb(237, 121, 169);
         width: 500px;
         height: 80px;
@@ -84,7 +131,7 @@ body {
         overflow: hidden;
     }
 
-    .botao1::before {
+    .botao2::before {
         content: "";
         position: absolute;
         top: 0;
@@ -96,11 +143,11 @@ body {
 
     }
 
-    .botao1:hover::before {
+    .botao2:hover::before {
         left: 100%;
     }
 
-    .botao1 i {
+    .botao2 i {
         position: absolute;
         left: 50%;
         top: 50%;
@@ -108,4 +155,140 @@ body {
         font-size: 60px;
     }
 
-    
+    /* INÍCIO BOTÃO */
+    .botao3{
+        background-color: #fbead6;
+        color: rgb(237, 121, 169);
+        width: 500px;
+        height: 80px;
+        text-align: center;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border: 2px solid rgb(237, 121, 169);
+        border-radius: 50px;
+        font-size: 36px;
+        padding: 15px 0;
+        text-decoration: none;
+        font-family: Arial, Helvetica, sans-serif;
+        letter-spacing: 2px;
+        text-transform: uppercase;
+        position: relative;
+        overflow: hidden;
+    }
+
+    .botao3::before {
+        content: "";
+        position: absolute;
+        top: 0;
+        left: -100%;
+        width: 100%;
+        height: 100%;
+        background: linear-gradient(45deg, transparent, rgb(237, 121, 169));
+        transition: 0.5s;
+
+    }
+
+    .botao3:hover::before {
+        left: 100%;
+    }
+
+    .botao3 i {
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%, -50%);
+        font-size: 60px;
+    }
+
+    /* INÍCIO BOTÃO4 */
+    .botao4{
+        background-color: #fbead6;
+        color: #6b7556;
+        width: 500px;
+        height: 80px;
+        text-align: center;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border: 2px solid #6b7556;
+        border-radius: 50px;
+        font-size: 36px;
+        padding: 15px 0;
+        text-decoration: none;
+        font-family: Arial, Helvetica, sans-serif;
+        letter-spacing: 2px;
+        text-transform: uppercase;
+        position: relative;
+        overflow: hidden;
+    }
+
+    .botao4::before {
+        content: "";
+        position: absolute;
+        top: 0;
+        left: -100%;
+        width: 100%;
+        height: 100%;
+        background: linear-gradient(45deg, transparent, #6b7556);
+        transition: 0.5s;
+
+    }
+
+    .botao4:hover::before {
+        left: 100%;
+    }
+
+    .botao4 i {
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%, -50%);
+        font-size: 60px;
+    }
+
+    /* INÍCIO BOTÃO5 */
+    .botao5{
+        background-color: #fbead6;
+        color: #f0c4cb;
+        width: 500px;
+        height: 80px;
+        text-align: center;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border: 2px solid #f0c4cb;
+        border-radius: 50px;
+        font-size: 36px;
+        padding: 15px 0;
+        text-decoration: none;
+        font-family: Arial, Helvetica, sans-serif;
+        letter-spacing: 2px;
+        text-transform: uppercase;
+        position: relative;
+        overflow: hidden;
+    }
+
+    .botao5::before {
+        content: "";
+        position: absolute;
+        top: 0;
+        left: -100%;
+        width: 100%;
+        height: 100%;
+        background: linear-gradient(45deg, transparent, #f0c4cb);
+        transition: 0.5s;
+
+    }
+
+    .botao5:hover::before {
+        left: 100%;
+    }
+
+    .botao5 i {
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%, -50%);
+        font-size: 60px;
+    }
