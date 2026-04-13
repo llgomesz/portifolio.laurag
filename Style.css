@@ -13,7 +13,10 @@ body {
     color: #e6007e;
 }
 .cabecalho {
-    padding: 2% 0% 0% 15%;
+    padding: 2% 0;
+    display: flex;
+    justify-content: center;
+
 }
 
 .cabecalho-menu {
@@ -22,7 +25,7 @@ body {
 }
 
 .cabecalho-menu-links {
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     font-size: 24xp;
     font-weight: 600;
     color: #e6007e;
@@ -48,19 +51,21 @@ body {
     height: auto;
     gap: 40px;
     order:2;
+    display: flex;
+    align-items: center;
 }
 
     .apresentacao-conteudo-titulo{
         font-size: 36px;
-        font-family: Arial, Helvetica, sans-serif;
-        text-align: justify;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        text-align: center;
     
     }
 
     .apresentacao-conteudo-paragrafo {
         font-size: 24px;
-        font-family: Arial, Helvetica, sans-serif;
-        text-align: justify;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        text-align: center;
     }
 
     /* INÍCIO BOTÃO1 */
@@ -78,7 +83,7 @@ body {
         font-size: 36px;
         padding: 15px 0;
         text-decoration: none;
-        font-family: Arial, Helvetica, sans-serif;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
         letter-spacing: 2px;
         text-transform: uppercase;
         position: relative;
@@ -124,7 +129,7 @@ body {
         font-size: 36px;
         padding: 15px 0;
         text-decoration: none;
-        font-family: Arial, Helvetica, sans-serif;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
         letter-spacing: 2px;
         text-transform: uppercase;
         position: relative;
@@ -170,7 +175,7 @@ body {
         font-size: 36px;
         padding: 15px 0;
         text-decoration: none;
-        font-family: Arial, Helvetica, sans-serif;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
         letter-spacing: 2px;
         text-transform: uppercase;
         position: relative;
@@ -216,7 +221,7 @@ body {
         font-size: 36px;
         padding: 15px 0;
         text-decoration: none;
-        font-family: Arial, Helvetica, sans-serif;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
         letter-spacing: 2px;
         text-transform: uppercase;
         position: relative;
@@ -262,7 +267,7 @@ body {
         font-size: 36px;
         padding: 15px 0;
         text-decoration: none;
-        font-family: Arial, Helvetica, sans-serif;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
         letter-spacing: 2px;
         text-transform: uppercase;
         position: relative;
@@ -295,8 +300,8 @@ body {
 
     .imagem {
         max-width: 100%;
-        width: 600px;
-        height: 300px;
+        width: 650px;
+        height: 350px;
         text-align: center;
         align-items: center;
         transition: transform 0.3s ease-in-out;
@@ -338,4 +343,25 @@ body {
 
     .imagem:hover {
         transform: scale(1.1);
+    }
+
+    .rodape {
+        position: fixed;
+        bottom: 0;
+        left: 0;
+        width: 100%;
+        color: #ffd2d8;
+        background-color:#e6007e;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        font-size: 15px;
+        font-weight: 400px;
+        padding: 05px;
+    }
+
+    .rodape a:hover {
+        color: #ffd2d8;
     }
